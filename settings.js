@@ -8,23 +8,21 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-//===> GANTI APIKEY, API INI CUMA BUAT FITUR TIKTOK DOWNLOAD
-global.zenzkey = 'Your_Apikey' //Register Atau Beli Di zenzapis.xyz
-
 //===> SESUAIKAN DENGAN KEBUTUHAN MU
-global.ownerNumber = ['6285609233482','6285609233482'] //Ganti Jadi Nomer mu Biar Fitur Ownernya Bisa Dipake
-global.Rowner = '6285609233482' //Owner Utama
-global.ownerName = 'Nzrl Afndi' //Ganti Jadi Namamu
-global.packname = 'Dracule Mihawk' //Ganti Jadi Nama Botmu
-global.author = 'By NzrlAfndi' //Ganti Jadi Namamu
+global.ownerNumber = ['6285742344873'] //Ganti Jadi Nomer mu Biar Fitur Ownernya Bisa Dipake
+global.Rowner = '6285742344873' //Owner Utama
+global.ownerName = 'Xyann    555' //Ganti Jadi Namamu
+global.packname = 'Xyann   555' //Ganti Jadi Nama Botmu
+global.author = 'wa.me/6285742344873\nwa.me/6281399593128' //Ganti Jadi Namamu
 global.prefa = ['','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
-global.sessionName = 'sesi' //Saran Gausah Diganti Lagi
-global.webme = 'https://linktr.ee/NzrlAfndi' //Ganti Jadi Bebas Web Sosmed Mu
+global.sessionName = 'xyann' //Saran Gausah Diganti Lagi
+global.webme = 'https://github.com/IyanGz' //Ganti Jadi Bebas Web Sosmed Mu
+global.sosmed = 'https://www.instagram.com/_nzrlafndi' //Ganti Jadi Web Sosmed Mu
 
 //====> SARAN GAUSAH DIGANTI SIH DAH PAS SEMUA
 global.limitAwal = {
  prem: 'Unlimited',
- free: 70
+ free: 50
 }
 global.multiplier = 69 // Semakin Tinggi Nilai nya Semakin Sulit Naik Level
 global.limitEnd = 'Limit Kamu Telah Habis Silahkan Buy Di Shop Atau Tunggu Sampai Limit Reset'
@@ -36,6 +34,7 @@ global.autobackup = true //Ganti Ke false Kalau Gamau Di Kirimin File Setiap Har
 global.autoread = true //Ganti ke false kalau gamau smua chat di read sama bot
 global.autotyping = true //Ganti ke false kalau gamau auto mengetik kalau ada chat masuk ke wa bot
 global.available = false //Ganti ke true kalau pengen bot nya keliatan online terus
+global.autolevelup = true //Ganti ke false klo gamau ada peningkatan exp user mu
 
 //===> SESUAIKAN DENGAN KEBUTUHAN MU 
 global.mess = {
@@ -53,6 +52,7 @@ prem: '*Khusus User Premium*'
 global.thumb = fs.readFileSync('./media/ichi.jpeg')
 global.donasi = fs.readFileSync('./media/donasi.jpg')
 global.thumbnail = fs.readFileSync('./media/ichi.mp4')
+global.doc = fs.readFileSync('./media/ichi.pdf')
 
 //===> UCAPAN WELCOME AND LEAVE
 global.quotes = {
